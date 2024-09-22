@@ -1,0 +1,24 @@
+/* App.css */
+.app {
+  transition: background-color 0.3s, color 0.3s;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto; /* Allow scrolling if needed */
+}
+
+.app.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.app.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Add any additional styles for the toggle button here */

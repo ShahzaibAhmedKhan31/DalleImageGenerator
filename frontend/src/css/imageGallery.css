@@ -1,0 +1,37 @@
+.image-container {
+    position: relative;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .image-container:hover .gallery-image {
+    filter: blur(4px); /* Blur effect on hover */
+  }
+  
+  .download-button {
+    position: absolute;
+    bottom: 0px;
+    right: auto;
+    left: auto;
+    background-color: #0FA37E;
+    border: none;
+    color: white;
+    padding: 25px 122px;
+    text-decoration: none;
+    display: none;
+    border-radius: 5px;
+  }
+  
+  .image-container:hover .download-button {
+    display: block;
+    cursor: pointer;
+  }
+
+  .download-button svg {
+    margin-right: 8px; /* Space between icon and text */
+  }
+  
